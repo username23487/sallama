@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sınav Sallama Uzmanlığı - NIHAI SÜRÜM</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff; /* Açık mavi arka plan */
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #4a69bd;
+            text-align: center;
+            border-bottom: 5px solid #4a69bd;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #e55039;
+            margin-top: 40px;
+            padding-left: 15px;
+            border-left: 7px solid #e55039;
+            font-size: 1.6em;
+        }
+        h3 {
+            color: #1abc9c;
+            margin-top: 30px;
+            border-bottom: 2px dashed #1abc9c;
+            padding-bottom: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #34495e; /* Koyu başlık */
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .genel th {
+            background-color: #2ecc71; /* Genel Taktikler için yeşil */
+        }
+        .genel td:first-child {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .warn {
+            color: #c0392b;
+            font-weight: bold;
+        }
+        .lise-ders th {
+            background-color: #9b59b6; /* Lise dersleri için mor */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎓 Sallama (Tahmin) Teknikleri Ustalığı</h1>
+        
+        <h2>⭐ Genel İstatistik Kuralları (4 ve 5 Şık İçin)</h2>
+        <table class="genel">
+            <thead>
+                <tr>
+                    <th>Strateji Adı</th>
+                    <th>4 Şıklı Sınav (A, B, C, D)</th>
+                    <th>5 Şıklı Sınav (A, B, C, D, E)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>**Eleme Kuralı**</td>
+                    <td colspan="2">Cevap olamayacağını **kesin** bildiğin şıkları ele. Olasılığın artar.</td>
+                </tr>
+                <tr>
+                    <td>**Merkez Eğilimi**</td>
+                    <td><span class="warn">B veya C</span> şıkkını tercih etme olasılığı A/D'den hafifçe yüksektir.</td>
+                    <td><span class="warn">B, C veya D</span> şıkkını tercih etme olasılığı A/E'den daha yüksektir. (Merkezde toplanma)</td>
+                </tr>
+                <tr>
+                    <td>**Benzerlik Çifti (Çelişki)**</td>
+                    <td colspan="2">İki şık birbirine **aşırı yakın** (108/109) veya **çelişiyorsa** ('Artar' / 'Azalır'), doğru cevap genellikle bu ikisinden biridir.</td>
+                </tr>
+                <tr>
+                    <td>**Benzerlik Çifti (Destek/Tuzak)**</td>
+                    <td colspan="2">İki şık birbirini **destekliyor** (örn: 'Hızlı hareket' ve 'Kinetik enerji artışı') ise, cevap yüksek ihtimalle **diğer şıklardan biridir**. (Doğru bilgi çeldirici olarak kullanılmıştır.)</td>
+                </tr>
+                <tr>
+                    <td>**Şık Dengesi**</td>
+                    <td colspan="2">Sınavda art arda 3-4 aynı cevap gelmişse, bir sonraki cevapta o şıkkı tercih etme. Dengeli dağılıma oyna.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>📚 Ortaokul Dersleri İçin Özel Taktikler (4 Şık Uygulaması)</h2>
+        <p><em>Bu taktikler 5 şıkta da geçerlidir, ancak odak noktaları ortaokul müfredatıdır.</em></p>
+
+        <h3>📐 Matematik ve Fen Bilimleri</h3>
+        <table class="ders">
+            <thead>
+                <tr><th>Teknik</th><th>Açıklama</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Uç Değer Elemesi</td><td>Diğer şıklardan aşırı derecede büyük veya küçük olan sayıları (outlier) ele.</td></tr>
+                <tr><td>Yuvarlak Sayılar</td><td>"10", "100" gibi yuvarlak sayılar genellikle işlem hatası sonucu bulunan çeldiricilerdir.</td></tr>
+            </tbody>
+        </table>
+
+        <h3>🌍 Sosyal Bilgiler ve Türkçe</h3>
+        <table class="ders">
+            <thead>
+                <tr><th>Teknik</th><th>Açıklama</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Kesinlik Elemesi</td><td>"**Asla**", "**Yalnızca**", "**Tüm**" gibi aşırı genelleme yapan şıkları ele.</td></tr>
+                <tr><td>Spesifik Olay Elemesi</td><td>Soru genel bir kavram soruyorsa, "Sınıf başkanı olmak" gibi **çok spesifik/uzak hedefleri** ele.</td></tr>
+            </tbody>
+        </table>
+
+        <h2>🎓 Lise Dersleri İçin Özel Taktikler (5 Şık Odaklı)</h2>
+        <p><em>Özellikle A ve E şıklarına dikkat edilmelidir.</em></p>
+
+        <h3>🧪 Kimya, Fizik ve Sayısal Dersler</h3>
+        <table class="lise-ders">
+            <thead>
+                <tr><th>Teknik</th><th>Açıklama</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>**"Hepsi Doğru" Kuralı**</td><td>Sayısal derslerde, maddeli sorularda **E şıkkının "Hepsi"** veya **"I, II ve III"** olma olasılığı yüksektir.</td></tr>
+                <tr><td>Formül/Birim Kontrolü</td><td>Şık içinde yanlış bir formül veya birim kullanan ifadeler yanlıştır. En detaylı, teknik ve doğru terimi barındıran şıkkı seç.</td></tr>
+            </tbody>
+        </table>
+
+        <h3>✍️ Edebiyat ve Dil Dersleri</h3>
+        <table class="lise-ders">
+            <thead>
+                <tr><th>Teknik</th><th>Açıklama</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>**En Uzun/Detaylı Şık**</td><td>Tanım, açıklama veya edebi akım sorulan yerlerde, doğru olması gereken bilgiyi eksiksiz taşıdığı için en uzun ve en detaylı şık doğru olabilir.</td></tr>
+                <tr><td>Yazar/Eser Uyumsuzluğu</td><td>Eserin dönemine veya yazara ait olmayan terimler içeren şıkları ele.</td></tr>
+            </tbody>
+        </table>
+
+        <h3>🏛️ Tarih ve Atatürkçülük (Sosyal)</h3>
+        <table class="lise-ders">
+            <thead>
+                <tr><th>Teknik</th><th>Açıklama</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>**Sebep-Sonuç Hatası**</td><td>İki tarihsel olayın sebep-sonuç ilişkisini yanlış kuran şıkları ele. (Örn: Bir olayın sonucunu, sebebi gibi göstermek.)</td></tr>
+                <tr><td>Aşırı Genelleme (Siyasi)</td><td>Tarih ve siyaset bilimlerinde "**mutlak**", "**tek hedef**" gibi ifadeler içeren şıklar, çoğulcu yaklaşıma aykırı olduğu için yanlıştır.</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
