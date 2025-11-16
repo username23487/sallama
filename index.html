@@ -3,177 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sınav Sallama Uzmanlığı - NIHAI SÜRÜM</title>
+    <title>Sallama Ustalığı - YILDIZSIZ NIHAI KILAVUZ</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f0f8ff; /* Açık mavi arka plan */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
             color: #333;
             line-height: 1.6;
-            padding: 20px;
+            padding: 30px;
         }
         .container {
-            max-width: 1000px;
+            max-width: 1100px;
             margin: auto;
-            background: #fff;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            background: #ffffff;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
         }
         h1 {
-            color: #4a69bd;
+            color: #e74c3c;
             text-align: center;
-            border-bottom: 5px solid #4a69bd;
+            border-bottom: 4px solid #e74c3c;
             padding-bottom: 15px;
-            margin-bottom: 30px;
+            margin-bottom: 35px;
+            font-size: 2em;
         }
         h2 {
-            color: #e55039;
-            margin-top: 40px;
-            padding-left: 15px;
-            border-left: 7px solid #e55039;
-            font-size: 1.6em;
+            color: #34495e;
+            margin-top: 35px;
+            padding-left: 10px;
+            border-left: 6px solid #f1c40f;
+            font-size: 1.5em;
         }
         h3 {
             color: #1abc9c;
-            margin-top: 30px;
-            border-bottom: 2px dashed #1abc9c;
+            margin-top: 25px;
+            border-bottom: 1px dashed #1abc9c;
             padding-bottom: 5px;
+            font-size: 1.2em;
         }
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 15px;
+            margin-top: 20px;
+            font-size: 0.95em;
         }
         th, td {
-            padding: 15px;
+            padding: 14px;
             text-align: left;
-            border-bottom: 1px solid #ddd;
+            border-bottom: 1px solid #f0f0f0;
         }
         th {
-            background-color: #34495e; /* Koyu başlık */
+            background-color: #3498db;
             color: white;
-            font-weight: bold;
+            font-weight: 600;
             text-transform: uppercase;
         }
         .genel th {
-            background-color: #2ecc71; /* Genel Taktikler için yeşil */
+            background-color: #2ecc71;
         }
-        .genel td:first-child {
-            font-weight: bold;
-            color: #2c3e50;
-        }
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-        .warn {
+        .uyari {
             color: #c0392b;
-            font-weight: bold;
+            font-weight: 700;
         }
-        .lise-ders th {
-            background-color: #9b59b6; /* Lise dersleri için mor */
+        .ipucu {
+            font-style: italic;
+            color: #7f8c8d;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>🎓 Sallama (Tahmin) Teknikleri Ustalığı</h1>
-        
-        <h2>⭐ Genel İstatistik Kuralları (4 ve 5 Şık İçin)</h2>
+        <h1>⚔️ BİLİNÇLİ TAHMİN: SINAV USTALIĞI KILAVUZU</h1>
+        <p class="ipucu">Bu kılavuz, sınav hazırlık psikolojisindeki zayıflıkları ve format ipuçlarını kullanarak tahmin gücünü maksimuma çıkarır.</p>
+
+        <h2>🎯 İstatistiki ve Psikolojik Eleme Kuralları (Tüm Dersler)</h2>
         <table class="genel">
             <thead>
                 <tr>
-                    <th>Strateji Adı</th>
-                    <th>4 Şıklı Sınav (A, B, C, D)</th>
-                    <th>5 Şıklı Sınav (A, B, C, D, E)</th>
+                    <th>Zafiyet Alanı</th>
+                    <th>4 Şıklı (Ortaokul)</th>
+                    <th>5 Şıklı (Lise)</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>**Eleme Kuralı**</td>
-                    <td colspan="2">Cevap olamayacağını **kesin** bildiğin şıkları ele. Olasılığın artar.</td>
+                    <td>Merkez Eğilimi</td>
+                    <td>B veya C şıkkı en olasıdır.</td>
+                    <td>B, C veya D şıkkı A ve E'den daha olasıdır.</td>
                 </tr>
                 <tr>
-                    <td>**Merkez Eğilimi**</td>
-                    <td><span class="warn">B veya C</span> şıkkını tercih etme olasılığı A/D'den hafifçe yüksektir.</td>
-                    <td><span class="warn">B, C veya D</span> şıkkını tercih etme olasılığı A/E'den daha yüksektir. (Merkezde toplanma)</td>
+                    <td>Çelişki Kuralı</td>
+                    <td colspan="2">('Artar' / 'Azalır' gibi) birbirini yalanlayan iki şık varsa, doğru cevap genellikle bu ikiliden biridir.</td>
                 </tr>
                 <tr>
-                    <td>**Benzerlik Çifti (Çelişki)**</td>
-                    <td colspan="2">İki şık birbirine **aşırı yakın** (108/109) veya **çelişiyorsa** ('Artar' / 'Azalır'), doğru cevap genellikle bu ikisinden biridir.</td>
+                    <td>Destek Tuzağı</td>
+                    <td colspan="2">('Hızlı hareket' ve 'Kinetik enerji artışı' gibi) aynı şeyi farklı kelimelerle söyleyen iki şık varsa, ikisi de çeldiricidir ve cevap diğer şıklardadır.</td>
                 </tr>
                 <tr>
-                    <td>**Benzerlik Çifti (Destek/Tuzak)**</td>
-                    <td colspan="2">İki şık birbirini **destekliyor** (örn: 'Hızlı hareket' ve 'Kinetik enerji artışı') ise, cevap yüksek ihtimalle **diğer şıklardan biridir**. (Doğru bilgi çeldirici olarak kullanılmıştır.)</td>
+                    <td>"Hepsi Doğru" Kuralı</td>
+                    <td>—</td>
+                    <td>Maddeli (I, II, III) sorularda, "I, II ve III" veya "Hepsi Doğru" şıkkının doğru olma ihtimali diğerlerinden daha yüksektir.</td>
                 </tr>
                 <tr>
-                    <td>**Şık Dengesi**</td>
-                    <td colspan="2">Sınavda art arda 3-4 aynı cevap gelmişse, bir sonraki cevapta o şıkkı tercih etme. Dengeli dağılıma oyna.</td>
+                    <td>Çeldirici Yorgunluğu</td>
+                    <td colspan="2">Popüler bir yanılgı veya bilinen bir yanlış bilgi içeren şıklar güçlü bir çeldiricidir ve elenmelidir.</td>
                 </tr>
             </tbody>
         </table>
 
-        <h2>📚 Ortaokul Dersleri İçin Özel Taktikler (4 Şık Uygulaması)</h2>
-        <p><em>Bu taktikler 5 şıkta da geçerlidir, ancak odak noktaları ortaokul müfredatıdır.</em></p>
-
-        <h3>📐 Matematik ve Fen Bilimleri</h3>
-        <table class="ders">
-            <thead>
-                <tr><th>Teknik</th><th>Açıklama</th></tr>
-            </thead>
+        <h2>🛡️ İleri Düzey Soru Formatı ve İçerik Zafiyetleri</h2>
+        
+        <h3>🔬 Sayısal ve Fen Bilimleri Odaklı Taktikler</h3>
+        <table>
+            <thead><tr><th>Teknik Adı</th><th>Uygulama İpuçları</th></tr></thead>
             <tbody>
-                <tr><td>Uç Değer Elemesi</td><td>Diğer şıklardan aşırı derecede büyük veya küçük olan sayıları (outlier) ele.</td></tr>
-                <tr><td>Yuvarlak Sayılar</td><td>"10", "100" gibi yuvarlak sayılar genellikle işlem hatası sonucu bulunan çeldiricilerdir.</td></tr>
+                <tr>
+                    <td>Mutlak Değer/Sıfır Elemesi</td>
+                    <td>Fizik ve Kimya'da birçok büyüklük negatif olamayacağı için negatif şıkları ele. Ancak "sıfır (0)" nadir de olsa doğru bir başlangıç noktası olabilir.</td>
+                </tr>
+                <tr>
+                    <td>Yuvarlak Sayılar</td>
+                    <td>'10', '100', '0' gibi tam ve yuvarlak sayılar genellikle basit işlem hatası sonucu bulunan çeldiricilerdir.</td>
+                </tr>
+                <tr>
+                    <td>Nadir Kelimeler (Sayısal)</td>
+                    <td>Dört şıkta yuvarlak sayılar varken, bir şıkta küsuratlı ve teknik bir sayı (Örn: $9.81$) varsa, bu şık doğru formülün sonucu olduğu için doğru cevaba yakındır.</td>
+                </tr>
+                <tr>
+                    <td>Grup Dışı Bırakma (Odd One Out)</td>
+                    <td>Dört şık birbiriyle (sayısal aralık, birim) çok benzerken, bir şık format veya birim olarak farklıysa (Örn: Üçü Joule, biri Watt), cevap o farklı olandır.</td>
+                </tr>
             </tbody>
         </table>
 
-        <h3>🌍 Sosyal Bilgiler ve Türkçe</h3>
-        <table class="ders">
-            <thead>
-                <tr><th>Teknik</th><th>Açıklama</th></tr>
-            </thead>
+        <h3>📖 Sözel ve Sosyal Odaklı Taktikler</h3>
+        <table>
+            <thead><tr><th>Teknik Adı</th><th>Uygulama İpuçları</th></tr></thead>
             <tbody>
-                <tr><td>Kesinlik Elemesi</td><td>"**Asla**", "**Yalnızca**", "**Tüm**" gibi aşırı genelleme yapan şıkları ele.</td></tr>
-                <tr><td>Spesifik Olay Elemesi</td><td>Soru genel bir kavram soruyorsa, "Sınıf başkanı olmak" gibi **çok spesifik/uzak hedefleri** ele.</td></tr>
+                <tr>
+                    <td>Aşırı Genelleme</td>
+                    <td>"Asla", "Yalnızca", "Tüm", "Tek nedeni" gibi aşırı kesin veya mutlak ifadeler içeren şıkları ele.</td>
+                </tr>
+                <tr>
+                    <td>Yanlış Ekleme Tuzağı</td>
+                    <td>Bilinen bir doğru tanıma küçük, gereksiz veya yanlış bir kelime eklenerek oluşturulan uzun şıklar, çeldiricidir.</td>
+                </tr>
+                <tr>
+                    <td>Çifte İsim Tuzağı</td>
+                    <td>Tarih ve Edebiyat gibi sözel derslerde, şıklardan birinde iki yazar veya iki olay aynı anda geçiyorsa, bu genellikle doğru cevaptır.</td>
+                </tr>
+                <tr>
+                    <td>Okunabilirlik ve Akıcılık</td>
+                    <td>Paragraf tamamlama veya yorumlama sorularında, dilbilgisi ve anlam akışı açısından paragrafın en doğal, akıcı ve kulağa doğru gelen devamı olan şıkkı seç.</td>
+                </tr>
+                <tr>
+                    <td>Spesifik Eleme</td>
+                    <td>Soru genel bir kavram soruyorsa, "Sınıf başkanı olmak" gibi çok spesifik başarıları ele. Cevap, kavramın kendisi olmalıdır.</td>
+                </tr>
             </tbody>
         </table>
 
-        <h2>🎓 Lise Dersleri İçin Özel Taktikler (5 Şık Odaklı)</h2>
-        <p><em>Özellikle A ve E şıklarına dikkat edilmelidir.</em></p>
-
-        <h3>🧪 Kimya, Fizik ve Sayısal Dersler</h3>
-        <table class="lise-ders">
-            <thead>
-                <tr><th>Teknik</th><th>Açıklama</th></tr>
-            </thead>
-            <tbody>
-                <tr><td>**"Hepsi Doğru" Kuralı**</td><td>Sayısal derslerde, maddeli sorularda **E şıkkının "Hepsi"** veya **"I, II ve III"** olma olasılığı yüksektir.</td></tr>
-                <tr><td>Formül/Birim Kontrolü</td><td>Şık içinde yanlış bir formül veya birim kullanan ifadeler yanlıştır. En detaylı, teknik ve doğru terimi barındıran şıkkı seç.</td></tr>
-            </tbody>
-        </table>
-
-        <h3>✍️ Edebiyat ve Dil Dersleri</h3>
-        <table class="lise-ders">
-            <thead>
-                <tr><th>Teknik</th><th>Açıklama</th></tr>
-            </thead>
-            <tbody>
-                <tr><td>**En Uzun/Detaylı Şık**</td><td>Tanım, açıklama veya edebi akım sorulan yerlerde, doğru olması gereken bilgiyi eksiksiz taşıdığı için en uzun ve en detaylı şık doğru olabilir.</td></tr>
-                <tr><td>Yazar/Eser Uyumsuzluğu</td><td>Eserin dönemine veya yazara ait olmayan terimler içeren şıkları ele.</td></tr>
-            </tbody>
-        </table>
-
-        <h3>🏛️ Tarih ve Atatürkçülük (Sosyal)</h3>
-        <table class="lise-ders">
-            <thead>
-                <tr><th>Teknik</th><th>Açıklama</th></tr>
-            </thead>
-            <tbody>
-                <tr><td>**Sebep-Sonuç Hatası**</td><td>İki tarihsel olayın sebep-sonuç ilişkisini yanlış kuran şıkları ele. (Örn: Bir olayın sonucunu, sebebi gibi göstermek.)</td></tr>
-                <tr><td>Aşırı Genelleme (Siyasi)</td><td>Tarih ve siyaset bilimlerinde "**mutlak**", "**tek hedef**" gibi ifadeler içeren şıklar, çoğulcu yaklaşıma aykırı olduğu için yanlıştır.</td></tr>
-            </tbody>
-        </table>
+        <h2 style="color:red;">⚠️ Kural: Bilgi Her Şeyden Üstündür</h2>
+        <p class="uyari">Bu teknikler sadece ve sadece BİLGİ eksikliği durumunda, son çare olarak şansınızı artırmak için kullanılır. Asla ders çalışmanın yerini tutmaz.</p>
     </div>
 
 </body>
